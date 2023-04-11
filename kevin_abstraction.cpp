@@ -4,11 +4,12 @@ using namespace std;
 
 class Admin{
 	
-	public:
+	protected:
 		char com_name[20] = "SJA";
 		int manager_salary = 25000;
 		int employe_salary = 10000;
 		int total_staff = 3;
+	private:
 		int total_revenue = 5000000;
 		char can_terminate[20] = "yes";
 		
